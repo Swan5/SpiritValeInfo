@@ -19,7 +19,7 @@
                         <td style="width: 100px">
                             <img
                                 style="width: 64px"
-                                :src="'/content/game/icons/' + c.icon + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/' + c.icon + '.webp'"
                                 :alt="c.name"
                                 v-if="c.icon"
                             />

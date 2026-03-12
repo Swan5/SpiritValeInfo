@@ -9,17 +9,17 @@
                     <div
                         class="cursor-pointer text-center p-4"
                         style="display: inline-block"
-                        v-if="c.type === 'base' || c.name === 'Weaver'"
-                        :key="c.name"
-                        @click="selectClass(c.name)"
+                        v-if="baseClasses.includes(c.DisplayName) || c.DisplayName === 'Weaver'"
+                        :key="c.GameId"
+                        @click="selectClass(c.DisplayName)"
                     >
                         <img
                             style="width: 64px; display: inline-block"
-                            :src="'/content/game/icons/' + c.icon + '.webp'"
-                            :alt="c.name"
+                            :src="'https://spiritvale.info/content/game/icons/' + c.icon + '.webp'"
+                            :alt="c.DisplayName"
                             v-if="c.icon"
                         />
-                        <div class="mt-2">{{ c.name }}</div>
+                        <div class="mt-2">{{ c.DisplayName }}</div>
                     </div>
                 </template>
 
@@ -84,6 +84,17 @@ const props = defineProps<{
     skillMap: any;
 }>();
 
+const baseClasses = [
+    'Acolyte',
+    'Knight',
+    'Mage',
+    'Rogue',
+    'Scout',
+    'Summoner',
+    'Warrior',
+    'Weaver',
+];
+
 const selectedClass = ref<string | null>(null);
 
 const skillTree = ref<any>(null);
@@ -137,7 +148,7 @@ const selectClass = (classId: string) => {
 
     const sClass = props.classes.find((c) => c.name === classId);
     if (sClass) {
-        jobLevel.value = sClass.maxJobLevel;
+        jobLevel.value = sClass.MaxJobLevel;
 
         resetSkillPoints();
     } else {

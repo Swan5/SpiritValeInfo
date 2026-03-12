@@ -3,7 +3,7 @@
         <div style="display: flex; flex-direction: row; gap: 1rem">
             <div>
                 <img
-                    :src="'/content/game/icons/' + card.icon + '.webp'"
+                    :src="'https://spiritvale.info/content/game/icons/' + card.icon + '.webp'"
                     :alt="card.DisplayName"
                     style="width: 100px; display: inline"
                 />

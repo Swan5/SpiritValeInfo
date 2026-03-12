@@ -53,7 +53,7 @@
                         >
                             <img
                                 style="height: 2rem; display: inline; vertical-align: middle; margin-right: 0.5rem"
-                                :src="'/content/game/icons/item-' + equip.item.icon + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/item-' + equip.item.icon + '.webp'"
                                 :alt="equip.item.name"
                             />
                             <span v-if="equip.refineLevel > 0">+{{ equip.refineLevel }}{{ ' ' }}</span>
@@ -74,7 +74,7 @@
                             <div v-for="card in equip.cards">
                                 <img
                                     style="height: 2rem; display: inline; vertical-align: middle; margin-right: 0.5rem"
-                                    :src="'/content/game/icons/' + card.icon + '.webp'"
+                                    :src="'https://spiritvale.info/content/game/icons/' + card.icon + '.webp'"
                                     :alt="card.name"
                                 />
                                 <Link

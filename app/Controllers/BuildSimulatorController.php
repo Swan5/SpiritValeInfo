@@ -24,7 +24,7 @@ class BuildSimulatorController
         foreach ($classes as $class) {
             $skillIdListTemp = [];
             $publicSkillTree[$class['DisplayName']] = [[], [], [], [], [], []];
-            foreach ($class['CustomSkillTree'] as $skillRow) {
+            foreach ($class['SkillTree'] as $skillRow) {
                 foreach ($skillRow as $skillGameId) {
                     if ($skillGameId !== '') {
                         $skillIdListTemp[] = $skillGameId;
@@ -72,7 +72,7 @@ class BuildSimulatorController
 
             for ($row = 0; $row < 6; $row++) {
                 for ($col = 0; $col < 7; $col++) {
-                    $skillId = $class['CustomSkillTree'][$row][$col] ?? '';
+                    $skillId = $class['SkillTree'][$row][$col] ?? '';
                     $skill = $skills[$skillId] ?? null;
 
                     $publicSkillTree[$class['DisplayName']][$row][$col] = $skill === null ? null : $skill;

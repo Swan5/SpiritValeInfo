@@ -3,3 +3,5 @@ node_modules/
 .tempest/
 log/
 public/vite-tempest
+data/
+public/build/

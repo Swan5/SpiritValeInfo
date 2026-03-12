@@ -41,7 +41,7 @@
                         <td style="width: 100px">
                             <img
                                 style="width: 64px"
-                                :src="'/content/game/icons/' + card.icon + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/' + card.icon + '.webp'"
                                 :alt="card.DisplayName"
                             />
                         </td>

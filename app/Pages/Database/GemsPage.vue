@@ -35,7 +35,7 @@
                         <td style="width: 100px">
                             <img
                                 style="width: 64px"
-                                :src="'/content/game/icons/' + gem.icon + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/' + gem.icon + '.webp'"
                                 :alt="gem.DisplayName"
                             />
                         </td>

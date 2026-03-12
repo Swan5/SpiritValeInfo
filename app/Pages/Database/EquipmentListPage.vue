@@ -36,7 +36,7 @@
                             <img
                                 loading="lazy"
                                 style="width: 64px"
-                                :src="'/content/game/icons/item-' + equipment.icon + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/item-' + equipment.icon + '.webp'"
                                 :alt="equipment.DisplayName"
                             />
                         </td>

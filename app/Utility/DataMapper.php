@@ -57,6 +57,7 @@ class DataMapper
 
     private static function skillDamageScaling(array $skill): array
     {
+        return [];
         $scalings = [];
 
         foreach ($skill['Scalings'] as $scaling) {

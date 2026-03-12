@@ -92,7 +92,7 @@
                                     >
                                         <img
                                             loading="lazy"
-                                            :src="'/content/game/icons/' + drop.icon + '.webp'"
+                                            :src="'https://spiritvale.info/content/game/icons/' + drop.icon + '.webp'"
                                             :alt="drop.name"
                                             style="width: 100px; display: inline"
                                         />
@@ -144,7 +144,7 @@
                                     >
                                         <img
                                             loading="lazy"
-                                            :src="'/content/game/icons/' + drop.icon + '.webp'"
+                                            :src="'https://spiritvale.info/content/game/icons/' + drop.icon + '.webp'"
                                             :alt="drop.name"
                                             style="width: 100px; display: inline"
                                         />
@@ -196,7 +196,7 @@
                                     >
                                         <img
                                             loading="lazy"
-                                            :src="'/content/game/icons/' + drop.icon + '.webp'"
+                                            :src="'https://spiritvale.info/content/game/icons/' + drop.icon + '.webp'"
                                             :alt="drop.name"
                                             style="width: 100px; display: inline"
                                         />
@@ -248,7 +248,7 @@
                                     >
                                         <img
                                             loading="lazy"
-                                            :src="'/content/game/icons/' + drop.icon + '.webp'"
+                                            :src="'https://spiritvale.info/content/game/icons/' + drop.icon + '.webp'"
                                             :alt="drop.name"
                                             style="width: 100px; display: inline"
                                         />
@@ -300,7 +300,7 @@
                                     >
                                         <img
                                             loading="lazy"
-                                            :src="'/content/game/icons/item-' + drop.icon + '.webp'"
+                                            :src="'https://spiritvale.info/content/game/icons/item-' + drop.icon + '.webp'"
                                             :alt="drop.name"
                                             style="width: 100px; display: inline"
                                         />

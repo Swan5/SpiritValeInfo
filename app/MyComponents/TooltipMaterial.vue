@@ -4,7 +4,7 @@
             <div>
                 <img
                     loading="lazy"
-                    :src="'/content/game/icons/item-' + material.icon + '.webp'"
+                    :src="'https://spiritvale.info/content/game/icons/item-' + material.icon + '.webp'"
                     :alt="material.DisplayName"
                     style="width: 100px; display: inline"
                 />

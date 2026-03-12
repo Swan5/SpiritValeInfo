@@ -30,7 +30,7 @@
                     >
                         <div>
                             <img
-                                :src="'/content/game/icons/skill-' + skillTree[row - 1][col - 1].id + '.webp'"
+                                :src="'https://spiritvale.info/content/game/icons/skill-' + skillTree[row - 1][col - 1].id + '.webp'"
                                 :style="{
                                     width: '64px',
                                     display: 'inline',
