@@ -13,18 +13,16 @@
             </p>
 
             <h2>How to Obtain Cards</h2>
-            <p>
-                Cards drop from monsters throughout the world.
-            </p>
+            <p>Cards drop from monsters throughout the world.</p>
             <ul>
                 <li><strong>Drop Rates:</strong> Most cards have a drop chance between 1% and 3%.</li>
                 <li>
-                    <strong>Boss Cards:</strong> Powerful boss monsters have unique cards with stronger
-                    effects, but these are often the rarest and most sought after.
+                    <strong>Boss Cards:</strong> Powerful boss monsters have unique cards with stronger effects,
+                    but these are often the rarest and most sought after.
                 </li>
             </ul>
 
-            <h2>Card Sockets on Equipment</h2>
+            <h2>Card Socket on Equipment</h2>
             <p>
                 Most equipment, including weapons, armor, and accessories, comes with one or more card sockets.
                 The number of sockets depends on the item type and rarity.
@@ -46,11 +44,12 @@
             </ul>
 
             <h2>Removing Cards from Equipment</h2>
-            <p>
-                Cards can be removed from equipment by using the card removal merchant in Nevaris.
-            </p>
+            <p>Cards can be removed from equipment by using the card removal merchant in Nevaris.</p>
             <ul>
-                <li>Removing a card preserves both the card and the equipment, but costs <a href="/wiki/Coin">coins</a>.</li>
+                <li>
+                    Removing a card preserves both the card and the equipment, but costs
+                    <Link href="/wiki/Coin">coins</Link>.
+                </li>
             </ul>
         </div>
     </WikiLayout>
@@ -58,8 +57,9 @@
 
 <script setup lang="ts">
 
-import { Head } from '@inertiajs/vue3';
 import WikiLayout from '@/Layouts/WikiLayout.vue';
+import { Head, Link } from '@inertiajs/vue3';
+import GameDataLink from '@/components/shared/GameDataLink.vue';
 </script>
 
 <style scoped>

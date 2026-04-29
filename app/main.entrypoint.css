@@ -334,7 +334,7 @@ div.data-table table tbody tr:hover td {
     }
 
     .section-title {
-        @apply text-xl font-semibold tracking-tight text-gray-100;
+        @apply text-2xl font-semibold tracking-tight text-gray-100;
     }
 
     .section-divider {

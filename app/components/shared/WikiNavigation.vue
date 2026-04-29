@@ -10,15 +10,33 @@
                 </tr>
                 <tr>
                     <td>Base</td>
-                    <td>Knight • Warrior • Mage • Summoner • Rogue • Acolyte • Scout</td>
+                    <td>
+                        <Link href="/wiki/Knight">Knight</Link> •
+                        <Link href="/wiki/Warrior">Warrior</Link> •
+                        <Link href="/wiki/Mage">Mage</Link> •
+                        <Link href="/wiki/Summoner">Summoner</Link> •
+                        <Link href="/wiki/Rogue">Rogue</Link> •
+                        <Link href="/wiki/Acolyte">Acolyte</Link> •
+                        <Link href="/wiki/Scout">Scout</Link>
+                    </td>
                 </tr>
                 <tr>
                     <td>Advanced</td>
-                    <td>Wizard • Shinobi • Priest • Paladin • Gunslinger • Necromancer • Berserker</td>
+                    <td>
+                        <Link href="/wiki/Wizard">Wizard</Link> •
+                        <Link href="/wiki/Shinobi">Shinobi</Link> •
+                        <Link href="/wiki/Priest">Priest</Link> •
+                        <Link href="/wiki/Paladin">Paladin</Link> •
+                        <Link href="/wiki/Gunslinger">Gunslinger</Link> •
+                        <Link href="/wiki/Necromancer">Necromancer</Link> •
+                        <Link href="/wiki/Berserker">Berserker</Link>
+                    </td>
                 </tr>
                 <tr>
                     <td>Special</td>
-                    <td>Weaver</td>
+                    <td>
+                        <Link href="/wiki/Weaver">Weaver</Link>
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -29,35 +47,41 @@
                     <th colspan="2">Game Systems</th>
                 </tr>
                 <tr>
-                    <td>Character</td>
+                    <td><Link href="/wiki/Character">Character</Link></td>
                     <td>
-                        Classes •
-                        Attributes •
-                        <a href="/wiki/Skills">Skills</a> •
-                        <a href="/wiki/Item_storage">Storage</a> •
-                        <a href="/wiki/Coin">Coin</a>
+                        <Link href="/wiki/Classes">Classes</Link> •
+                        <Link href="/wiki/Attributes">Attributes</Link> •
+                        <Link href="/wiki/Skills">Skills</Link> •
+                        <Link href="/wiki/Item_Storage">Storage</Link> •
+                        <Link href="/wiki/Coin">Coin</Link>
                     </td>
                 </tr>
                 <tr>
-                    <td>Items</td>
-                    <td>Consumables • Equipment • Cards • Artifacts • Materials</td>
-                </tr>
-                <tr>
-                    <td><a href="/wiki/Combat">Combat</a></td>
+                    <td><Link href="/wiki/Items">Items</Link></td>
                     <td>
-                        <a href="/wiki/Dodge_Roll">Dodge Roll</a> •
-                        <a href="/wiki/Elements">Elements</a> •
-                        <a href="/wiki/Monsters">Monsters</a> •
-                        <a href="/wiki/Arena">Arena</a>
+                        <Link href="/wiki/Consumables">Consumables</Link> •
+                        <Link href="/wiki/Equipment">Equipment</Link> •
+                        <Link href="/wiki/Card_System">Cards</Link> •
+                        <Link href="/wiki/Artifacts">Artifacts</Link> •
+                        <Link href="/wiki/Materials">Materials</Link>
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="/wiki/World">World</a></td>
+                    <td><Link href="/wiki/Combat">Combat</Link></td>
                     <td>
-                        <a href="/wiki/Waypoints">Waypoints</a> •
-                        <a href="/wiki/Non-Player_Character">Non-Player Characters</a> •
-                        <a href="/wiki/Refinement_System">Refinement</a> •
-                        <a href="/wiki/Crafting_System">Crafting</a>
+                        <Link href="/wiki/Dodge_Roll">Dodge Roll</Link> •
+                        <Link href="/wiki/Elements">Elements</Link> •
+                        <Link href="/wiki/Monsters">Monsters</Link> •
+                        <Link href="/wiki/Arena">Arena</Link>
+                    </td>
+                </tr>
+                <tr>
+                    <td><Link href="/wiki/World">World</Link></td>
+                    <td>
+                        <Link href="/wiki/Waypoints">Waypoints</Link> •
+                        <Link href="/wiki/Non-Player_Character">Non-Player Characters</Link> •
+                        <Link href="/wiki/Refinement_System">Refinement</Link> •
+                        <Link href="/wiki/Crafting_System">Crafting</Link>
                     </td>
                 </tr>
                 </tbody>
@@ -67,6 +91,7 @@
 </template>
 
 <script setup lang="ts">
+import { Link } from '@inertiajs/vue3';
 </script>
 
 <style scoped>
